@@ -21,3 +21,30 @@ i {
 .fa-toggle-on {
   color: greenyellow;
 }
+
+.row {
+  margin: 3rem 0;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+img {
+  border-radius: .3rem;
+  box-shadow: -.2rem .2rem .8rem gray;
+}
+
+span {
+  writing-mode: vertical-lr;
+  vertical-align: top;
+  font-size: small;
+}
+
+p {
+  font-weight: 500;
+  font-size: medium;
+  margin: 1rem 0;
+}
