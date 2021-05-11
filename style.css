@@ -12,3 +12,12 @@
   background-color: rgba(0, 0, 0, .8);
   color: #fff;
 }
+
+i {
+  font-size: xx-large;
+  transition: all .9s linear;
+}
+
+.fa-toggle-on {
+  color: greenyellow;
+}
