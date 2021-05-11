@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper-off {
+  background-color: #F4F4F4;
+}
+
+.wrapper-on {
+  background-color: rgba(0, 0, 0, .8);
+  color: #fff;
+}
