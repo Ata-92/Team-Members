@@ -2,6 +2,13 @@ const wrapper = document.querySelector(".wrapper-off");
 const toggles = document.querySelectorAll("svg");
 toggles[1].style.display = "none";
 
+toggles.forEach((toggle, index) => {
+  toggle.addEventListener("click", () => {
+    toggle.style.display = "none";
+    toggles[1 - index].style.display = "initial";
+    wrapper.classList.toggle("wrapper-on");
+  })
+})
 
 
 
@@ -12,6 +19,8 @@ toggles[1].style.display = "none";
 //   icon.classList.toggle("fa-toggle-on");
 //   wrapper.classList.toggle("wrapper-on");
 // });
+
+
 
 // const wrapper = document.querySelector(".wrapper-off");
 // const input = document.querySelector("input");
