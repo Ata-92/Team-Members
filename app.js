@@ -1,14 +1,14 @@
-const wrapper = document.querySelector(".wrapper-off");
-const toggles = document.querySelectorAll("svg");
-toggles[1].style.display = "none";
+// const wrapper = document.querySelector(".wrapper-off");
+// const toggles = document.querySelectorAll("svg");
+// toggles[1].style.display = "none";
 
-toggles.forEach((toggle, index) => {
-  toggle.addEventListener("click", () => {
-    toggle.style.display = "none";
-    toggles[1 - index].style.display = "initial";
-    wrapper.classList.toggle("wrapper-on");
-  })
-})
+// toggles.forEach((toggle, index) => {
+//   toggle.addEventListener("click", () => {
+//     toggle.style.display = "none";
+//     toggles[1 - index].style.display = "initial";
+//     wrapper.classList.toggle("wrapper-on");
+//   })
+// })
 
 
 
@@ -22,9 +22,9 @@ toggles.forEach((toggle, index) => {
 
 
 
-// const wrapper = document.querySelector(".wrapper-off");
-// const input = document.querySelector("input");
+const wrapper = document.querySelector(".wrapper-off");
+const input = document.querySelector("input");
 
-// input.addEventListener("click", () => {
-//   wrapper.classList.toggle("wrapper-on");
-// });
+input.addEventListener("click", () => {
+  wrapper.classList.toggle("wrapper-on");
+});
