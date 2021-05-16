@@ -1,3 +1,7 @@
+const wrapper = document.querySelector(".wrapper-off");
+const toggles = document.querySelectorAll("svg");
+toggles[1].style.display = "none";
+
 
 
 
