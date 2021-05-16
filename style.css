@@ -14,6 +14,14 @@
   color: #fff;
 }
 
+svg {
+  transition: all .9s linear;
+}
+
+.bi-toggle-on {
+  color: greenyellow;
+}
+
 i {
   font-size: xx-large;
   transition: all .9s linear;
