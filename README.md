@@ -23,9 +23,9 @@ Project aims to create your development team web page.
         |----app.js
 ```
 
-## Expected Outcome
+## My Outcome
 
-![Project 005 Snapshot](Project_005_.png)
+![Team-Members](team-members.gif)
 
 ## Objective
 
