@@ -1,7 +1,10 @@
-<p>Clarusway<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
+# Team Members
 
-# Project-005 : Team Members Page (HC-005)
+👉 [Team Members Website](https://ata-92.github.io/Team-Members/)
+
+## My Outcome
+
+![Team-Members](team-members.gif)
 
 ## Description
 Project aims to create your development team web page.
@@ -22,10 +25,6 @@ Project aims to create your development team web page.
         |----style.css   
         |----app.js
 ```
-
-## My Outcome
-
-![Team-Members](team-members.gif)
 
 ## Objective
 
